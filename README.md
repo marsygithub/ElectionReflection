@@ -140,4 +140,4 @@ Example output:
 ![alt text](/images/website.png)
 
 
-The web app was created through flask and can be accessed at:  www.discovercongress.co
+The web app was created through Flask and can be accessed at:  www.discovercongress.co
