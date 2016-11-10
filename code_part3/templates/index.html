@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        /*padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        background-image: url("https://s-media-cache-ak0.pinimg.com/564x/f7/fa/c4/f7fac48b50972d36d4b55a5b86b48d06.jpg")
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <br></br>
+                <h1 style="font-size:40pt;"><b>Discover Congressional Partisanship</b></h1>
+                <br></br>
+                <p class="lead"></p>
+                <form>
+                  <textarea id="temp" style="white-space:pre-wrap;height:100px;width:500px;background-color:#e5e5e5;text-align:center" name="paragraph" placeholder="Enter keywords and phrases to find out which congress party and person cares about what you care about">{{ query }}</textarea>
+                    <br/><br/>
+                 <input style="height:50px;width:100px;font-size:12pt;" type="submit" value="Submit"/>
+                </form>
+                <br/><br/>
+                <ul class="list-unstyled">
+                  <li style="font-size:30px";><b>{{ party }}</b></li>
+                  <br></br>
+                  <li style="font-size:30px";><b>{{ people }}</b></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
