@@ -7,7 +7,7 @@
 
 The 2016 election was arguably the most controversial election of all time.  
 
-I decided to mine Twitter data as a start since Twitter has so much data processed ever minute to see what kind of information I could uncover about the presidential election.
+I decided to mine Twitter data as a start since Twitter has so much data processed every minute to see what kind of information I could uncover about the presidential election.
 
 It's easy to get caught up in slogans and catch phrases and fail to hear the actual message of a campaign.  It's easy to remember #nastywoman and #makeamericagreatagain, but most of us won't remember specific policy promises, if there were any at all.  Because of this, I wanted to explore the meat of campaign speeches and identify the topics that each candidate focuses on the most.  
 
@@ -27,12 +27,12 @@ Part 3 recommends a congress person based on a user's keywords.
 ## Part 1
 
 ### Definitions
-Clinton Supporter:  A person who used a hashtag or phrase associated with a Clinton supporter.  Ex. "imwithher" - see streamingclinton.py
+Clinton Supporter:  A person who used a hashtag or phrase associated with a Clinton supporter.  Ex. "imwithher" - see `streamingclinton.py`
 
-Trump Supporter:  A person who used a hashtag or phrase associated with a Clinton supporter.  Ex. "makeamericagreatagain" - see streamingtrump.py
+Trump Supporter:  A person who used a hashtag or phrase associated with a Clinton supporter.  Ex. "makeamericagreatagain" - see `streamingtrump.py`
 
 ### The Data
-The data was collected from the Twitter streaming API. The files streamingclinton.py and streamingtrump.py contain the phrases and hasttags that were used to filter the tweets.
+The data was collected from the Twitter streaming API. The files `streamingclinton.py` and `streamingtrump.py` contain the phrases and hasttags that were used to filter the tweets.
 
 I collected tweets for a couple hours everyday for 5 days during the last week of October.  The tweets were stored in a json file and then processed using natural language processing tools and TFIDF.
 
