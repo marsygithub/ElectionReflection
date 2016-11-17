@@ -60,11 +60,11 @@ Even though Clinton and Trump supporters have drastically different views, the w
 Campaign speeches and presidential debates were used in doing this analysis.
 
 The speeches and debate transcripts were collected from a variety of sources:
-  - hillaryclinton.com/speeches
-  - whatthefolly.com
-  - time.com
-  - newsweek.com
-  - nytimes.com
+  - www.hillaryclinton.com/speeches
+  - www.whatthefolly.com
+  - www.time.com
+  - www.newsweek.com
+  - www.nytimes.com
 
 All speeches collected were given in 2016.  
 
